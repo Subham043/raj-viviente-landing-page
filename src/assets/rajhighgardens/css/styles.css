@@ -533,4 +533,8 @@ footer .main-footer{
     .connectivity-holder .text-col li{
         width: 100%;
     }
+
+    .menu-holder .menu-col{
+        width: 100%;
+    }
 }
