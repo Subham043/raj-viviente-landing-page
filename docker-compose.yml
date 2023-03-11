@@ -1,0 +1,30 @@
+version: '3'
+
+networks:
+  viviente:
+
+services:
+  nginx: 
+    image: nginx:stable-alpine
+    container_name: viviente_nginx
+    ports:
+      - "8081:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php
+    networks:
+      - viviente
+
+  php:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: viviente_php
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "9000:9000"
+    networks:
+      - viviente

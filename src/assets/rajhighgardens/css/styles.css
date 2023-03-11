@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white !important;
+    transition: all 0.4s ease-in-out;
+}
+
+header nav ul li a:hover{
+    color: #3d833e !important;
+}
+
+header nav ul li:last-child a{
+    background-color: white;
+    color: #222 !important;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+header nav .logo-holder{
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header nav .logo-holder a{
+    text-decoration: none;
+    width: auto;
+}
+
+header nav .logo-holder a img{
+    width: 150px;
+    object-fit: contain;
+}
+
+section{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.banner-holder{
+    width: 100%;
+}
+
+.banner-holder img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.menu-holder{
+    box-shadow: 0px 0px 14px 5px #eee;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu-holder .menu-col{
+    text-align: center;
+}
+
+.menu-holder .menu-col a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-holder .menu-col a h5{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.menu-holder .menu-col a i{
+    color: #3d833e;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.main-title{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.main-title span{
+    color: #3d833e;
+    font-style: italic;
+}
+
+.about-holder .slider-holder .slider-img, .about-holder .slider-holder .slider-img img{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.about-holder .content-holder h6{
+    color: black;
+    margin-bottom: 25px;
+}
+
+.about-holder .content-holder h6 span{
+    color: #3d833e;
+    font-style: italic;
+}
+
+.about-holder .content-holder p{
+    color:#7a7a7a;
+}
+
+.amenities-holder .amenities-col{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.amenities-holder .amenities-col img{
+    width: auto;
+    height: 75px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.amenities-holder .amenities-col h6{
+    color: #3d833e;
+    text-transform: uppercase;
+}
+
+.gallery-holder .gallery-col{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.gallery-holder .gallery-col{
+    overflow: hidden;
+}
+
+.gallery-holder .gallery-col img{
+    width: auto;
+    max-width: 300px;
+    object-fit: contain;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-holder .gallery-col img:hover{
+    transform: scale(1.1);
+}
+
+.contact-holder{
+    width: 100%;
+    /* background:
+   linear-gradient(to bottom, #0a2045 0%, #0a2045 59%, #0a2045 100%),
+   url('https://rajhighgardens.com/wp-content/uploads/2022/09/paving.png') repeat; */
+    background:
+   linear-gradient(to bottom, #0a2045 0%, #0a2045 59%, #0a2045 100%);
+   padding: 50px 0;
+}
+
+.contact-holder .contact-col{
+    text-align: center;
+    color: white;
+}
+
+.contact-holder .contact-col a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-holder .contact-col button{
+    border: 2px solid #3d833e;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #3d833e;
+    padding: 5px 25px;
+    color: white;
+    outline: none;
+}
+
+.contact-holder .contact-col .dark-holder, .contact-holder .contact-col .outline-holder{
+
+    border: 2px solid #3d833e;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 10px;
+}
+
+.contact-holder .contact-col .dark-holder a, .contact-holder .contact-col .outline-holder a{
+    text-decoration: none;
+    color: white;
+    /* text-align: center; */
+}
+
+.contact-holder .contact-col .dark-holder{
+    background-color: #3d833e;
+}
+.contact-holder .contact-col .text-holder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.contact-holder .contact-col .text-holder i{
+    font-size: 4.6rem;
+}
+.contact-holder .contact-col .text-holder h4{
+    font-size: 1.9rem;
+}
+
+.connectivity-holder .map-col iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.connectivity-holder .text-col h6{
+    color: #3d833e;
+}
+
+.connectivity-holder .text-col ul{
+    padding-left: 1rem;
+}
+
+.connectivity-holder .text-col li{
+    list-style: none;
+}
+.connectivity-holder .text-col li i{
+    color: #3d833e;
+}
+
+.creation-holder{
+    background-color:#f7f2ec;
+    padding: 50px 0;
+}
+.creation-holder .creation-slider-holder{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+}
+.creation-holder .creation-slider-holder img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+}
+.creation-holder .creation-slider-holder p i{
+    color: #3d833e;
+}
+
+.slick-prev, .slick-next{
+    position: absolute;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    z-index: 5;
+    border: none;
+}
+
+.slick-prev{
+    left: 0;
+    bottom: 50%;
+}
+.slick-next{
+    right: 0;
+    bottom: 50%;
+}
+
+footer{
+    background-color: #222;
+}
+
+footer img{
+    height: 100px;
+    object-fit: contain;
+}
+
+footer .footer-col ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+footer .footer-col ul li{
+    padding: 10px 0;
+}
+
+footer .footer-col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-col ul li a i{
+    color: #3d833e;
+}
+
+footer .footer-col h5{
+    color: #3d833e;
+}
+
+footer .main-footer{
+    padding: 30px
+}
+
+.copy-holder{
+    background-color: black;
+    padding: 30px;
+}
+
+.copy-holder p{
+    color: white;
+    margin: 0;
+    display: inline;
+    width: auto;
+}
+
+.copy-holder a.footer-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #3d833e;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+}
+
+.copy-holder .footer-icon-col{
+    gap: 10px;
+}
+
+.plan-holder{
+    background-color: #f7f2ec;
+    padding: 50px 0;
+}
+
+.plan-holder .plan-header{
+    margin-bottom: 30px;
+}
+
+.plan-holder .plan-header .main-title{
+    width: auto;
+    margin-bottom: 0;
+}
+
+.plan-holder .plan-header button{
+    width: auto;
+    outline: none;
+    border: 2px solid #3d833e;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #3d833e;
+    padding: 10px 10px;
+    color: white;
+}
+
+/* tab new */
+.plan-holder .tab-holder .tab-panels .panel{
+    padding: 0px;
+    background-color: transparent !important;
+    width: 100%;
+    min-height: 100px;
+}
+
+.plan-holder .tab-holder .tab-panels ul li{
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    padding: 10px 10px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    display: block !important;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.plan-holder .tab-holder .tab-panels ul li.active, .plan-holder .tab-holder .tab-panels ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+.plan-holder .tab-holder .tab-panels{
+    position: relative;
+}
+
+.plan-holder .tab-holder .tab-panels .loader-div-tab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+}
+
+.plan-holder .tab-holder .slick-prev{
+    left: -20px;
+}
+
+.plan-holder .tab-holder .slick-next{
+    right: -20px;
+}
+
+.error{
+    color: red;
+}
+
+
+@media only screen and (max-width: 991px) {
+    header nav{
+        display: block;
+    }
+    .navbar-nav{
+        background-color: white;
+    }
+    header nav ul li a{
+        color: black !important;
+    }
+
+    .row>* {
+        width: initial;
+    }
+
+    .justify-sm-around{
+        justify-content: space-around !important;
+    }
+
+    .justify-sm-center{
+        justify-content: center !important;
+    }
+
+    .menu-holder .menu-col{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-holder .content-holder{
+        margin-top: 20px;
+    }
+
+    .plan-holder .tab-holder .slick-prev {
+        left: 0;
+    }
+
+    .plan-holder .tab-holder .slick-next {
+        right: 0;
+    }
+
+    .plan-holder .tab-holder .tab-panels .col-sm-12{
+        width: 100%;
+    }
+
+    .contact-holder .contact-col{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .connectivity-holder .map-col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .main-footer .footer-col{
+        width: 100%;
+    }
+
+    .copy-holder .footer-icon-col{
+        margin-top: 13px;
+    }
+}
