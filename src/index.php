@@ -28,7 +28,7 @@
             <div class="conatiner">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -75,25 +75,25 @@
         <div class="container">
             <div class="menu-holder">
                 <div class="row justify-sm-around">
-                    <div class="col-lg-3 col-md-6 col-sm-6 menu-col">
+                    <div class="col-lg-3 col-md-6 col-sm-12 menu-col">
                         <a href="#amenities-section">
                             <i class="fas fa-home"></i>
                             <h5>Project Amenities</h5>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 menu-col">
+                    <div class="col-lg-3 col-md-6 col-sm-12 menu-col">
                         <a href="#plan-section">
                             <i class="fas fa-building"></i>
                             <h5>Floor Plans & Interiors</h5>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 menu-col">
+                    <div class="col-lg-3 col-md-6 col-sm-12 menu-col">
                         <a href="#location-section">
                             <i class="fas fa-map-marker-alt"></i>
                             <h5>Location</h5>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 menu-col">
+                    <div class="col-lg-3 col-md-6 col-sm-12 menu-col">
                         <a href="#contact-section">
                             <i class="fas fa-calendar-alt"></i>
                             <h5>Get In touch</h5>

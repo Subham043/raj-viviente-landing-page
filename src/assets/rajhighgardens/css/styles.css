@@ -513,4 +513,24 @@ footer .main-footer{
     .copy-holder .footer-icon-col{
         margin-top: 13px;
     }
+
+    .amenities-holder .col-sm-12{
+        width: 100%;
+    }
+
+    .plan-holder .plan-header .main-title {
+        width: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .plan-holder .plan-header button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .connectivity-holder .text-col li{
+        width: 100%;
+    }
 }
