@@ -62,8 +62,9 @@ header nav ul li:last-child a{
 header nav .logo-holder{
     width: auto;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    left: 15px;
+    z-index: 99;
 }
 
 header nav .logo-holder a{
@@ -72,8 +73,11 @@ header nav .logo-holder a{
 }
 
 header nav .logo-holder a img{
-    width: 150px;
+    width: 120px;
     object-fit: contain;
+    background-color: #000;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 section{
@@ -83,11 +87,14 @@ section{
 
 .banner-holder{
     width: 100%;
+    min-height: 100vh;
+    position: relative;
 }
 
 .banner-holder img{
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 
 .menu-holder{
@@ -146,6 +153,7 @@ section{
 
 .about-holder .content-holder p{
     color:#7a7a7a;
+    font-size: 0.8rem;
 }
 
 .amenities-holder .amenities-col{
@@ -176,10 +184,11 @@ section{
 .gallery-holder .gallery-col img{
     width: auto;
     max-width: 300px;
-    object-fit: contain;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: all 0.3s ease-in-out;
+    height: 300px;
 }
 
 .gallery-holder .gallery-col img:hover{
@@ -246,6 +255,16 @@ section{
 }
 .contact-holder .contact-col .text-holder h4{
     font-size: 1.9rem;
+}
+
+.connectivity-holder .image-col img{
+    width: 100%;
+}
+
+.connectivity-holder .map-col{
+    min-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .connectivity-holder .map-col iframe{
@@ -450,8 +469,183 @@ footer .main-footer{
     color: red;
 }
 
+/* new sections style */
+.formbackground {
+    background-color: #F1EFE8 !important;
+    color: #1C1919;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 20px;
+}
+#tophighlights{
+    margin-right: 20px;
+    max-width: 450px;
+    width: 100%;
+}
+#topform {
+    box-shadow: 0 0 0 2px #a1a1a1, 0 0 0 3px #ffffff, 0 0 15px 15px #0000004f;
+}
 
-@media only screen and (max-width: 991px) {
+.banner-form-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-holder .banner-form-container h1{
+    font-size: 1.2rem;
+}
+
+.banner-holder .banner-form-container li,.banner-holder .banner-form-container  ul{
+    list-style: none;
+    font-weight: normal !important;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-holder .banner-form-container li{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.banner-holder .banner-form-container li span{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.formbuttonstyler {
+    background-color: green !important;
+    background-image: linear-gradient(315deg, #f0af00 0%, #ffc820 74%);
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.formbuttonstyler:hover {
+    background-color: #000 !important;
+    background-image: linear-gradient(315deg, #000 0%, #000 74%);
+    color: #fff;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+    border-radius: 5px;
+}
+
+.banner-holder .banner-form-container form{
+    padding: 15px 20px;
+    padding-top: 0;
+}
+
+.sticky-slider{
+    position: sticky;
+    top: 350px;
+}
+
+.tg {
+    border-collapse: inherit !important;
+    border-spacing: 0;
+    width: 100%;
+    border: 0px;
+}
+
+.tg td {
+    font-size: 13px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #b0b0b052;
+}
+
+.tg th {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #000;
+}
+
+.tg .tg-baqh {
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    background-color: #072243;
+    background-color: #072243 !important;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+.tg .tg-0lax {
+    text-align: center;
+    vertical-align: top;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.tg .tg-0lay {
+    text-align: center;
+    vertical-align: top;
+    font-weight: 800;
+    padding: 6px 6px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unlockbuttonstyler {
+    background-color: #ce9600;
+    border: none;
+    margin-bottom: 0!important;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 50%);
+    background-image: linear-gradient(315deg, #f0af00 0%, #ffc820 74%);
+}
+
+.unlockbuttonstyler:hover {
+    background-color: #ce9600 !important;
+    background-image: linear-gradient(315deg, #ce9600 0%, #ce9600 74%) !important;
+    background: #ce9600;
+    color: black !important;
+}
+
+.connectivity-holder .accordion-button:not(.collapsed){
+    color: #3f823f;
+    background-color: #559b5638;
+    box-shadow: none !important;
+}
+
+.connectivity-holder .accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: var(--bs-accordion-btn-icon);
+}
+
+@media only screen and (max-width: 1024px) {
     header nav{
         display: block;
     }
@@ -536,5 +730,37 @@ footer .main-footer{
 
     .menu-holder .menu-col{
         width: 100%;
+    }
+
+    .banner-form-container {
+        position: relative;
+        top: -55px;
+        justify-content: center;
+    }
+
+    .connectivity-holder .text-col{
+        margin-top: 50px;
+    }
+
+    
+    .banner-holder > section {
+        margin-bottom: 0;
+    }
+
+    .mb-sm-0{
+        margin-bottom: 0;
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+    }
+    
+    .row>* {
+        width: 100% !important;
+    }
+
+    .gallery-holder .gallery-col {
+        text-align: center;
     }
 }
