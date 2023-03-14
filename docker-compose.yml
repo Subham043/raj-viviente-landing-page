@@ -12,19 +12,19 @@ services:
     volumes:
       - ./src:/var/www/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-    # depends_on:
-    #   - php
+    depends_on:
+      - php
     networks:
       - viviente
 
-  # php:
-  #   build: 
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   container_name: viviente_php
-  #   volumes:
-  #     - ./src:/var/www/html
-  #   ports:
-  #     - "9000:9000"
-  #   networks:
-  #     - viviente
+  php:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: viviente_php
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "9001:9000"
+    networks:
+      - viviente

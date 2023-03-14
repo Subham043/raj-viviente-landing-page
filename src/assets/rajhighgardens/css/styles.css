@@ -763,4 +763,8 @@ footer .main-footer{
     .gallery-holder .gallery-col {
         text-align: center;
     }
+
+    #tophighlights {
+        margin-right: 0;
+    }
 }
