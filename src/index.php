@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="assets/rajhighgardens/css/img-previewer.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/rajhighgardens/css/styles.css">
-    <!-- Google reCAPTCHA CDN -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer>
-    </script>
 </head>
 
 <body>
@@ -78,22 +75,22 @@
                             Download Brochure & Floorplans<br><span class='ctanow'><b style="color:#fff;">*Register for
                                     Special Offers Now*</b></span></p>
 
-                        <form method="post">
+                        <form id="banner-form" method="post">
                             <div class="mb-3">
-                                <input type="text" class="form-control" id="name" name="name"
+                                <input type="text" class="form-control" id="name2" name="name"
                                     placeholder="Enter your Name">
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="email" name="email"
+                                <input type="email" class="form-control" id="email2" name="email"
                                     aria-describedby="emailHelp" placeholder="Enter your email">
                             </div>
                             <div class="mb-3">
-                                <input type="number" class="form-control" id="phone" name="phone"
+                                <input type="number" class="form-control" id="phone2" name="phone"
                                     placeholder="Enter your phone">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary formbuttonstyler"
-                                    id="submitBtn">Submit</button>
+                                    id="submitBtn2">Submit</button>
                             </div>
                         </form>
 
@@ -180,8 +177,7 @@
                                             class="unlockbuttonstyler"
                                             style="background-color: black !important; background-image: linear-gradient(315deg,#000000 0%,#191919 74%); color: white;font-weight:bold;"
                                             type="button"
-                                            onclick="document.getElementById('contactformid2').src='contactform-pricing.html';"
-                                            data-toggle="modal" data-target="#myModal">🔒 Unlock Price</button></td>
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">🔒 Unlock Price</button></td>
                                     <td class="tg-0lay unlocked" style="display:none;">3891 Sqft<br>3.88 Cr*</td>
                                 </tr>
                                 <tr>
@@ -191,8 +187,7 @@
                                             class="unlockbuttonstyler"
                                             style="background-color: black !important; background-image: linear-gradient(315deg,#000000 0%,#191919 74%); color: white;font-weight:bold;"
                                             type="button"
-                                            onclick="document.getElementById('contactformid2').src='contactform-pricing.html';"
-                                            data-toggle="modal" data-target="#myModal">🔒 Unlock Price</button></td>
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">🔒 Unlock Price</button></td>
                                     <td class="tg-0lay unlocked" style="display:none;">3891 Sqft<br>3.97 Cr*</td>
                                 </tr>
     
@@ -203,8 +198,7 @@
                                             class="unlockbuttonstyler"
                                             style="background-color: black !important; background-image: linear-gradient(315deg,#000000 0%,#191919 74%); color: white;font-weight:bold;"
                                             type="button"
-                                            onclick="document.getElementById('contactformid2').src='contactform-pricing.html';"
-                                            data-toggle="modal" data-target="#myModal">🔒 Unlock Price</button></td>
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">🔒 Unlock Price</button></td>
                                     <td class="tg-0lay unlocked" style="display:none;">3891 Sqft<br>4.04 Cr*</td>
                                 </tr>
     
@@ -215,8 +209,7 @@
                                     <td class="tg-0lay locked" style="display:table-cell;"><button
                                             style="background-color: black !important; background-image: linear-gradient(315deg,#000000 0%,#191919 74%); color: white;font-weight:bold;"
                                             type="button" class="unlockbuttonstyler" data-toggle="modal"
-                                            onclick="document.getElementById('contactformid2').src='contactform-pricing.html';"
-                                            data-target="#myModal">🔒 Unlock Price</button></td>
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">🔒 Unlock Price</button></td>
                                     <td class="tg-0lay unlocked" style="display:none;">3891 Sqft<br>3.98 Cr*</td>
                                 </tr>
     
@@ -353,7 +346,7 @@
                     <h2 class="main-title">
                         Master & <span>Unit Plans</span>
                     </h2>
-                    <button>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Download PDF <i class="fas fa-download"></i>
                     </button>
                 </div>
@@ -444,7 +437,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 contact-col">
                         <div class="outline-holder">
-                            <a class="text-holder">
+                            <a class="text-holder" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <i class="fas fa-download"></i>
                                 <div>
                                     <p>DOWNLOAD PROJECT</p>
@@ -770,9 +763,6 @@
                             <label for="phone" class="form-label">Phone</label>
                             <input type="number" class="form-control" id="phone" name="phone" placeholder="983*******">
                         </div>
-                        <div class="mb-3 form-group g-recaptcha"
-                            data-sitekey="6LejGTMjAAAAAPROmA-1KuSSrLmTD5MXXX7taBC5">
-                        </div>
                         <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
                     </form>
 
@@ -1029,8 +1019,93 @@ var validators = $("#contact-form").validate({
                         "phone": xhr?.responseJSON?.form_error?.phone
                     });
                 }
-                if (xhr?.responseJSON?.form_error?.recaptcha) {
-                    errorToast(xhr?.responseJSON?.form_error?.recaptcha)
+                if (xhr?.responseJSON?.error) {
+                    errorToast(xhr?.responseJSON?.error)
+                }
+                submitBtn.innerHTML = `
+                        Submit
+                        `
+                submitBtn.disabled = false;
+            }
+        });
+        return false;
+    }
+});
+var validators2 = $("#banner-form").validate({
+    rules: {
+        // compound rule
+        name: {
+            required: true,
+            namePattern: true
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        phone: {
+            required: true,
+            digits: true,
+        },
+    },
+    messages: {
+        name: {
+            required: "Please specify your full name",
+        },
+        email: {
+            required: "Please specify your email",
+            email: "Your email address must be in the format of name@domain.com"
+        },
+        phone: {
+            required: "Please specify your phone",
+            digits: "Your phone number must be in the format of digits only",
+        },
+    },
+    submitHandler: function(form) {
+        // form.submit();
+        var submitBtn = document.getElementById('submitBtn2')
+        submitBtn.innerHTML = `
+                <span class="d-flex align-items-center">
+                    <span class="spinner-border flex-shrink-0" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </span>
+                    <span class="flex-grow-1 ms-2">
+                        Loading...
+                    </span>
+                </span>
+                `
+        submitBtn.disabled = true;
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: new FormData(form),
+            processData: false,
+            contentType: false,
+            cache: false,
+            async: false,
+            dataType: "json",
+            success: function(response) {
+                successToast("Message Sent Successfully.")
+                form.reset();
+                submitBtn.innerHTML = `
+                        Submit
+                        `
+                submitBtn.disabled = false;
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                if (xhr?.responseJSON?.form_error?.name) {
+                    validators2.showErrors({
+                        "name": xhr?.responseJSON?.form_error?.name
+                    });
+                }
+                if (xhr?.responseJSON?.form_error?.email) {
+                    validators2.showErrors({
+                        "email": xhr?.responseJSON?.form_error?.email
+                    });
+                }
+                if (xhr?.responseJSON?.form_error?.phone) {
+                    validators2.showErrors({
+                        "phone": xhr?.responseJSON?.form_error?.phone
+                    });
                 }
                 if (xhr?.responseJSON?.error) {
                     errorToast(xhr?.responseJSON?.error)

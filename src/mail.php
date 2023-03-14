@@ -71,7 +71,7 @@ function captchaValidator($val){
 $name      =  $_POST['name'];
 $email     =  $_POST['email'];
 $phone     =  $_POST['phone'];
-$recaptcha = $_POST['g-recaptcha-response'];
+// $recaptcha = $_POST['g-recaptcha-response'];
 
 if(nameValidator($name)){
     http_response_code(400); 
@@ -88,11 +88,11 @@ if(phoneValidator($phone)){
     echo json_encode(array("form_error"=>array("phone"=>"Phone field is invalid")));
     exit;
 }
-if(captchaValidator($recaptcha)){
-    http_response_code(400); 
-    echo json_encode(array("form_error"=>array("recaptcha"=>"Recaptcha field is required")));
-    exit;
-}
+// if(captchaValidator($recaptcha)){
+//     http_response_code(400); 
+//     echo json_encode(array("form_error"=>array("recaptcha"=>"Recaptcha field is required")));
+//     exit;
+// }
 
     $body='<h2>Ace Global</h2>
 
