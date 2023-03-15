@@ -64,7 +64,7 @@ header nav .logo-holder{
     position: absolute;
     top: 15px;
     left: 15px;
-    z-index: 99;
+    z-index: 9999;
 }
 
 header nav .logo-holder a{
@@ -87,14 +87,16 @@ section{
 
 .banner-holder{
     width: 100%;
-    height: 80vh;
+    min-height: 100vh;
     position: relative;
     margin-bottom: 50px;
+    z-index: 999;
 }
 
 .banner-holder img{
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
+    height: 100%;
     object-fit: cover;
 }
 
@@ -155,7 +157,12 @@ section{
 
 .about-holder .content-holder p{
     color:#7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.logo-secondary img{
+    height: 150px;
+    object-fit: contain;
 }
 
 .amenities-holder .amenities-col{
@@ -197,14 +204,32 @@ section{
     transform: scale(1.1);
 }
 
+
 .contact-holder{
     width: 100%;
-    /* background:
-   linear-gradient(to bottom, #0a2045 0%, #0a2045 59%, #0a2045 100%),
-   url('https://rajhighgardens.com/wp-content/uploads/2022/09/paving.png') repeat; */
-    background:
-   linear-gradient(to bottom, #0a2045 0%, #0a2045 59%, #0a2045 100%);
-   padding: 50px 0;
+    /* background-image: url('../images/snn-viviente-banners-10.jpg'); */
+    background-image:
+            linear-gradient(45deg,
+              rgba(245,70,66, 0.75),
+              rgba(8,83,156, 0.75)), url(
+'../images/snn-viviente-banners-10.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.contact-holder::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .6;
+    z-index: 2;
 }
 
 .contact-holder .contact-col{
@@ -217,7 +242,7 @@ section{
     color: white;
 }
 
-.contact-holder .contact-col button{
+/* .contact-holder .contact-col button{
     border: 2px solid #3d833e;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -225,7 +250,7 @@ section{
     padding: 5px 25px;
     color: white;
     outline: none;
-}
+} */
 
 .contact-holder .contact-col .dark-holder, .contact-holder .contact-col .outline-holder{
 
@@ -461,11 +486,11 @@ footer .main-footer{
 }
 
 .plan-holder .tab-holder .slick-prev{
-    left: -20px;
+    left: 15px;
 }
 
 .plan-holder .tab-holder .slick-next{
-    right: -20px;
+    right: 15px;
 }
 
 .error{
@@ -499,6 +524,7 @@ footer .main-footer{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 .banner-holder .banner-form-container h1{
@@ -646,6 +672,18 @@ footer .main-footer{
 
 .accordion-button:not(.collapsed)::after{
     background-image: var(--bs-accordion-btn-icon);
+}
+
+.tab-regular{
+    padding: 0 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-slider{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;;
 }
 
 .gallery-slider .slick-dots{

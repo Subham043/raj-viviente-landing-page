@@ -106,20 +106,18 @@
             <div class="about-holder" id="about-section">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6 col-sm-12 slider-holder">
-                        <div class="regular slider">
-                            <div class="slider-img">
-                                <img src="assets/rajhighgardens/images/gallery/13.jpg" class="w-100" alt="">
-                            </div>
-                            <div class="slider-img">
-                                <img src="assets/rajhighgardens/images/gallery/12.jpg" class="w-100" alt="">
-                            </div>
+                        <div class="slider-img">
+                            <img src="assets/rajhighgardens/images/gallery/18.jpg" class="w-100" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 content-holder">
-                        <h2 class="main-title">
+                        <div class="logo-secondary text-center">
+                            <img src="assets/rajhighgardens/images/snn-raj-viviente-logo.png" alt="">
+                        </div>
+                        <!-- <h2 class="main-title text-center">
                             Raj <span>Viviente</span>
-                        </h2>
-                        <h6>
+                        </h2> -->
+                        <h6 class="text-center">
                             <span>RERA NUMBER:</span> PRM/KA/RERA/1251/310/PR/011022/005290
                         </h6>
                         <p><b>Overview</b> : Raj Viviente by SNN Corp offers 64 Ultra Luxury 4BHK(G+2 Floors) Villas
@@ -577,15 +575,17 @@
     <section class="mb-0">
         <div class="contact-holder" id="contact-section">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 contact-col">
-                        <h3>Contact Us</h3>
-                        <p><a href="">enquiry@ssnrajcorp.com</a></p>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-8 col-md-6 col-sm-12 contact-col">
+                        <h2>GET COST SHEET & BROCHURE</h2>
+                        <p>Click Below To Download Floorplans & Cost Sheet of Raj Viviente & Register for special offers.</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary formbuttonstyler">Download Now</button>
+                        <!-- <p><a href="">enquiry@ssnrajcorp.com</a></p>
                         <p>No. 52/8, Golden Pearl Layout, Near Nice Under Pass, E Main Rd, Eagle Ridge, Ckikkakammana
                             halli, Bengaluru, Karnataka 560083</p>
-                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a vist</button>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a vist</button> -->
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 contact-col">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 contact-col">
                         <div class="dark-holder">
                             <a class="text-holder" href="tel:8095585858">
                                 <i class="fas fa-mobile-android-alt"></i>
@@ -606,7 +606,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
