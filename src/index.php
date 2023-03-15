@@ -104,14 +104,14 @@
     <section>
         <div class="container">
             <div class="about-holder" id="about-section">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6 col-sm-12 slider-holder">
-                        <div class="regular slider sticky-slider">
+                        <div class="regular slider">
                             <div class="slider-img">
-                                <img src="assets/rajhighgardens/images/cover-1.jpeg" class="w-100" alt="">
+                                <img src="assets/rajhighgardens/images/gallery/13.jpg" class="w-100" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="assets/rajhighgardens/images/cover-2.jpeg" class="w-100" alt="">
+                                <img src="assets/rajhighgardens/images/gallery/12.jpg" class="w-100" alt="">
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="main-title">
-                        DOUBLE HEIGHT CEILINGS & <span>18 FEET TALL WINDOWS</span>
+                        Double Height Ceilings & <span>18 Feet Tall Windows</span>
                     </h2>
                 </div>
                 <div class="row justify-content-center">
@@ -231,54 +231,34 @@
                         Image <span>Gallery</span>
                     </h2>
                 </div>
-                <div id="gallery-container" class="row mt-5 justify-sm-center">
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/1.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/2.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/3.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/5.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/6.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/7.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/8.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/9.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/10.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/11.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/12.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/13.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/14.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/15.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/16.jpg" alt="">
-                    </div>
-                    <div class="gallery-col">
-                        <img src="assets/rajhighgardens/images/gallery/18.jpg" alt="">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 slider-holder mt-3">
+                        <div class="gallery-slider slider">
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/2.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/2.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/3.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/3.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/5.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/5.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/6.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/6.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/7.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/7.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/8.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/8.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/15.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/15.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="slider-img" img-src="assets/rajhighgardens/images/gallery/16.jpg">
+                                <img src="assets/rajhighgardens/images/gallery/16.jpg" class="w-100" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -290,7 +270,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="main-title">
-                        VILLAS WITH DESIGN INFLUENCES FROM <span>10+ COUNTRIES</span>
+                        Villas With Design Influences From <span>10+ Countries</span>
                     </h2>
                 </div>
                 <div class="row mt-5 justify-sm-around">
@@ -370,7 +350,7 @@
                                 <div id="panel1" class="panel active">
                                     <div class="tab-regular slider">
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/master-plan.png" class="w-100"
+                                            <img src="assets/rajhighgardens/images/plans/1.jpg" class="w-100"
                                                 alt="">
                                         </div>
                                     </div>
@@ -379,13 +359,13 @@
                                 <div id="panel2" class="panel">
                                     <div class="tab-regular slider">
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/east-1.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/2.jpg" class="w-100" alt="">
                                         </div>
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/east-2.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/3.jpg" class="w-100" alt="">
                                         </div>
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/east-3.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/4.jpg" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -393,13 +373,13 @@
                                 <div id="panel3" class="panel">
                                     <div class="tab-regular slider">
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/west-1.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/5.jpg" class="w-100" alt="">
                                         </div>
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/west-2.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/6.jpg" class="w-100" alt="">
                                         </div>
                                         <div class="slider-img">
-                                            <img src="assets/rajhighgardens/images/west-3.jpeg" class="w-100" alt="">
+                                            <img src="assets/rajhighgardens/images/plans/7.jpg" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -413,7 +393,188 @@
         </div>
     </section>
 
+    
+    <section class="mt-5">
+        <div class="connectivity-holder" id="location-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2 class="main-title text-center">
+                            Prime <span>Location</span>
+                        </h2>
+                        <p>Raj Viviente by SNN Corp is located Just Off Bannerghatta Road Near Nice Rd Junction in South Bangalore. The project features excellent connectivity to Electronic City, JP Nagar, Uttarahalli, HSR Layout, Sarjapur Road, RR nagar, Mysore Road & other important destinations.</p>
+                        <p>The project is just 5 Minutes from Royal Meenakshi Mall, Decathlon, Christ University & Narayana Nethralaya Eye Hospital. And, Just 10 Minutes from IIM Bangalore, Fortis Hospital & Apollo Hospital. Vega City Mall is just 15 minutes drive from the project.</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 map-col">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15559.41482080838!2d77.60025!3d12.852724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b7e16364e9b%3A0x7919b132ab2d2246!2sSNN%20Raj%20Viviente!5e0!3m2!1sen!2sin!4v1678546006365!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 image-col">
+                        <img src="assets/rajhighgardens/images/icons/snn-viviente-location-map.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-col">
+                        <h2 class="main-title text-center">
+                            Connectivity <span>At Its Best</span>
+                        </h2>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <h6>SCHOOLS</h6>
+                                <ul class="row align-items-center justify-content-between">
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        IIM Bangalore
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Christ University
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        T John College
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Sherwood High School
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Greenwood High ICSE School
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        BS International School
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        AMC Engineering College
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Sarla Birla Academy
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <h6>MALLS & RETAIL</h6>
+                                <ul class="row align-items-center justify-content-between">
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Decathlon Flagship Store
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Gatsby Cocktails & Cuisines
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Central Mall Bangalore
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Vega City Mall
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Royal Meenakshi Mall
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Bannerghatta Biological Park
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        NICE Toll Plaza
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <h6>HOSPITALS</h6>
+                                <ul class="row align-items-center justify-content-between">
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Fortis Hospital
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Apollo Hospital
+                                    </li>
+                                    <li class="col-lg-12 col-md-12 col-sm-12">
+                                        <i class="fas fa-check"></i>
+                                        Narayana Nethralaya Eye Hospital
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>
+        <div class="amenities-holder" id="amenities-section">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="main-title">
+                        20+ Worldclass <span>Amenities</span>
+                    </h2>
+                </div>
+                <div class="row mt-5 justify-sm-around">
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/car-parking.png" alt="">
+                        <h6>VISITORS CAR PARKING</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/tree.png" alt="">
+                        <h6>WATER FEATURE WITH TREE PLANTER</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/playground.png" alt="">
+                        <h6>CHILDREN'S PLAY AREA</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/barbeque.png" alt="">
+                        <h6>BARBEQUE/ BAR</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/yoga.png" alt="">
+                        <h6>YOGA LAWN</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/pets.png" alt="">
+                        <h6>PET CORNER</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/player.png" alt="">
+                        <h6>BADMINTON PRACTISE COURT</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/treadmill.png" alt="">
+                        <h6>GYM</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/massage.png" alt="">
+                        <h6>SPA</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/swimming-pool.png" alt="">
+                        <h6>INDOOR POOL WITH POOL DECK</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/meditation.png" alt="">
+                        <h6>MEDITATION ROOM</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 amenities-col">
+                        <img src="assets/rajhighgardens/images/amenities/gazebo.png" alt="">
+                        <h6>GAZEBO WITH SEATERS</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-0">
         <div class="contact-holder" id="contact-section">
             <div class="container">
                 <div class="row align-items-center">
@@ -445,160 +606,6 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="connectivity-holder" id="location-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <h2 class="main-title text-center">
-                            Prime <span>Location</span>
-                        </h2>
-                        <p>Raj Viviente by SNN Corp is located Just Off Bannerghatta Road Near Nice Rd Junction in South Bangalore. The project features excellent connectivity to Electronic City, JP Nagar, Uttarahalli, HSR Layout, Sarjapur Road, RR nagar, Mysore Road & other important destinations.</p>
-                        <p>The project is just 5 Minutes from Royal Meenakshi Mall, Decathlon, Christ University & Narayana Nethralaya Eye Hospital. And, Just 10 Minutes from IIM Bangalore, Fortis Hospital & Apollo Hospital. Vega City Mall is just 15 minutes drive from the project.</p>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 map-col">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15559.41482080838!2d77.60025!3d12.852724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b7e16364e9b%3A0x7919b132ab2d2246!2sSNN%20Raj%20Viviente!5e0!3m2!1sen!2sin!4v1678546006365!5m2!1sen!2sin"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 image-col">
-                        <img src="assets/rajhighgardens/images/icons/snn-viviente-location-map.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-col">
-                        <div class="sticky-slider">
-                            <h2 class="main-title text-center">
-                                Connectivity <span>At Its Best</span>
-                            </h2>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            SCHOOLS
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <ul class="row align-items-center justify-content-between">
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    T John College
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    BS International School
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Sarla Birla Academy
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    IIM Bangalore
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Sherwood High School
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    AMC Engineering College
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Christ University
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Greenwood High ICSE School
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            HOSPITALS
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <ul class="row align-items-center justify-content-between">
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Apollo Hospital
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Fortis Hospital
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Narayana Nethralaya Eye Hospital
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <ul class="row align-items-center justify-content-between">
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Decathlon Flagship Store
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Vega City Mall
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Gatsby Cocktails & Cuisines
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Royal Meenakshi Mall
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    NICE Toll Plaza
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Central Mall Bangalore
-                                                </li>
-                                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                                    <i class="fas fa-check"></i>
-                                                    Bannerghatta Biological Park
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -811,6 +818,39 @@ $(".regular").slick({
         },
     ]
 });
+$(".gallery-slider").slick({
+    dots: true,
+    infinite: true,
+    adaptiveHeight: true,
+    arrows: true,
+    prevArrow: '<button type="button" data-role="none" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
+    nextArrow: '<button type="button" data-role="none" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
+    customPaging: function(slider, i) { 
+        return '<button> <img src="' + $(slider.$slides[i]).attr('img-src') + '"/></button>';
+    },
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+            }
+        },
+    ]
+});
 $(".tab-regular").slick({
     dots: false,
     infinite: true,
@@ -871,27 +911,27 @@ $(".creation").slick({
         },
     ]
 });
-const galleryViewer = new ImgPreviewer('#gallery-container', {
-    // aspect ratio of image
-    fillRatio: 0.9,
-    // attribute that holds the image
-    dataUrlKey: 'src',
-    // additional styles
-    style: {
-        modalOpacity: 0.6,
-        headerOpacity: 0,
-        zIndex: 99
-    },
-    // zoom options
-    imageZoom: {
-        min: 0.1,
-        max: 5,
-        step: 0.1
-    },
-    // detect whether the parent element of the image is hidden by the css style
-    bubblingLevel: 0,
+// const galleryViewer = new ImgPreviewer('#gallery-container', {
+//     // aspect ratio of image
+//     fillRatio: 0.9,
+//     // attribute that holds the image
+//     dataUrlKey: 'src',
+//     // additional styles
+//     style: {
+//         modalOpacity: 0.6,
+//         headerOpacity: 0,
+//         zIndex: 99
+//     },
+//     // zoom options
+//     imageZoom: {
+//         min: 0.1,
+//         max: 5,
+//         step: 0.1
+//     },
+//     // detect whether the parent element of the image is hidden by the css style
+//     bubblingLevel: 0,
 
-});
+// });
 // const floorViewer = new ImgPreviewer('#floor-container',{
 //   // aspect ratio of image
 //     fillRatio: 0.9,
