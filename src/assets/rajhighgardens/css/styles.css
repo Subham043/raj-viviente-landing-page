@@ -87,9 +87,15 @@ section{
 
 .banner-holder{
     width: 100%;
-    min-height: 100vh;
+    height: 50vh;
     position: relative;
-    margin-bottom: 50px;
+    z-index: 999;
+}
+
+.banner-holder2{
+    width: 100%;
+    position: relative;
+    /* margin-bottom: calc(45vh + 0.5vw); */
     z-index: 999;
 }
 
@@ -220,7 +226,7 @@ section{
     padding: 150px 0;
 }
 
-.contact-holder::before {
+/* .contact-holder::before {
     position: absolute;
     content: '';
     width: 100%;
@@ -230,7 +236,7 @@ section{
     background: #000;
     opacity: .6;
     z-index: 2;
-}
+} */
 
 .contact-holder .contact-col{
     text-align: center;
@@ -506,8 +512,9 @@ footer .main-footer{
     padding-top: 20px;
 }
 #tophighlights{
-    margin-right: 20px;
-    max-width: 450px;
+    /* margin-right: 20px; */
+    /* max-width: 450px; */
+    max-width: 90%;
     width: 100%;
 }
 #topform {
@@ -516,34 +523,46 @@ footer .main-footer{
 
 .banner-form-container{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: -10vh;
     left: 0;
     z-index: 999;
 }
 
-.banner-holder .banner-form-container h1{
+.banner-holder2 .banner-form-container h1{
     font-size: 1.2rem;
 }
 
-.banner-holder .banner-form-container li,.banner-holder .banner-form-container  ul{
+.banner-holder2 .banner-form-container  ul{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.banner-holder2 .banner-form-container li{
+    width: auto;
+}
+
+.banner-holder2 .banner-form-container li,.banner-holder2 .banner-form-container  ul{
     list-style: none;
     font-weight: normal !important;
     margin: 0;
     padding: 0;
 }
 
-.banner-holder .banner-form-container li{
+.banner-holder2 .banner-form-container li{
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
 
-.banner-holder .banner-form-container li span{
+.banner-holder2 .banner-form-container li span{
     font-weight: normal;
     font-size: 1rem;
 }

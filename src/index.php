@@ -34,6 +34,10 @@
     <section class="mb-sm-0">
         <div class="banner-holder">
             <img src="assets/rajhighgardens/images/snn-viviente-banners-6.jpg" alt="">
+        </div>
+    </section>
+    <section class="mb-sm-0">
+        <div class="banner-holder2">
             <div class="banner-form-container">
                 <div id="tophighlights">
 
@@ -75,16 +79,16 @@
                             Download Brochure & Floorplans<br><span class='ctanow'><b style="color:#fff;">*Register for
                                     Special Offers Now*</b></span></p>
 
-                        <form id="banner-form" method="post">
-                            <div class="mb-3">
+                        <form id="banner-form" class="row" method="post">
+                            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
                                 <input type="text" class="form-control" id="name2" name="name"
                                     placeholder="Enter your Name">
                             </div>
-                            <div class="mb-3">
+                            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
                                 <input type="email" class="form-control" id="email2" name="email"
                                     aria-describedby="emailHelp" placeholder="Enter your email">
                             </div>
-                            <div class="mb-3">
+                            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
                                 <input type="number" class="form-control" id="phone2" name="phone"
                                     placeholder="Enter your phone">
                             </div>
