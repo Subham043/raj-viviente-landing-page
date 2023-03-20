@@ -93,17 +93,27 @@ section{
 }
 
 .banner-holder2{
-    width: 100%;
+    /* width: 100%;
     position: relative;
-    /* margin-bottom: calc(45vh + 0.5vw); */
+    margin-bottom: calc(45vh + 0.5vw);
+    z-index: 999; */
+    width: 100%;
+    height: auto;
+    position: relative;
     z-index: 999;
+    background-image: url('../images/snn-viviente-banners-6.jpg');
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
 }
 
-.banner-holder img{
+.banner-holder2 img{
     width: 100%;
     /* height: 80vh; */
     height: 100%;
+    max-height: 75vh;
     object-fit: cover;
+    display: none;
 }
 
 .menu-holder{
@@ -513,8 +523,8 @@ footer .main-footer{
 }
 #tophighlights{
     /* margin-right: 20px; */
-    /* max-width: 450px; */
-    max-width: 90%;
+    max-width: 450px;
+    /* max-width: 90%; */
     width: 100%;
 }
 #topform {
@@ -523,14 +533,14 @@ footer .main-footer{
 
 .banner-form-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    position: relative;
-    top: -10vh;
-    left: 0;
+    /* position: absolute; */
+    top: 15px;
+    right: 15px;
     z-index: 999;
 }
 
@@ -538,9 +548,9 @@ footer .main-footer{
     font-size: 1.2rem;
 }
 
-.banner-holder2 .banner-form-container  ul{
+/* .banner-holder2 .banner-form-container  ul{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -548,7 +558,7 @@ footer .main-footer{
 
 .banner-holder2 .banner-form-container li{
     width: auto;
-}
+} */
 
 .banner-holder2 .banner-form-container li,.banner-holder2 .banner-form-container  ul{
     list-style: none;
@@ -824,6 +834,7 @@ footer .main-footer{
         position: relative;
         top: -55px;
         justify-content: center;
+        right: 0;
     }
 
     .connectivity-holder .text-col{
@@ -854,8 +865,22 @@ footer .main-footer{
 
     #tophighlights {
         margin-right: 0;
+        max-width: 90%;
     }
     .banner-holder{
         height: auto;
+    }
+
+    section {
+        margin-bottom: 25px;
+    }
+
+    .banner-holder2 img{
+        display: block;
+    }
+
+    .banner-holder2{
+        background-image: none;
+        padding: 0;
     }
 }
